@@ -27,7 +27,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-artifact@v5
         with:
-          name: dist
+          path: dist
 
       - name: Deploy to GitHub Pages
         id: deploy
